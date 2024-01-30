@@ -1,0 +1,133 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<style>
+  /* .a2n_slider .swiper {
+    width: 240px;
+    height: 320px;
+  } */
+
+  .a2n_slider .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    
+  }
+
+  /* .a2n_slider .swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+
+  .a2n_slider .swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+
+  .a2n_slider .swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  } */
+</style>
+<div class="a2n_slider">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <!-- #1 testimonials  Card start  -->
+        <div class="a2n_testimonial-card">
+          <h4 class="testimonials__title">Great Work</h4>
+          <p class="testimonials__text">
+            “I think Educrat is the best theme I ever seen this year. Amazing
+            design, easy to customize and a design quality superlative account
+            on its cloud platform for the optimized performance”
+          </p>
+          <div class="testimonials-footer">
+            <div class="testimonials-footer__image">
+              <img
+                src="https://learnforest.net/wp-content/uploads/2024/01/2-4-2.png"
+                alt=""
+              />
+            </div>
+            <div class="testimonials-footer__content">
+              <div class="testimonials-footer__title">Ronald Richards</div>
+              <div class="testimonials-footer__text">President of Sales</div>
+            </div>
+          </div>
+        </div>
+        <!-- testimonials  Card end  -->
+      </div>
+      <div class="swiper-slide">
+        <!-- #2 testimonials  Card start  -->
+        <div class="a2n_testimonial-card">
+          <h4 class="testimonials__title">Great Work</h4>
+          <p class="testimonials__text">
+            “I think Educrat is the best theme I ever seen this year. Amazing
+            design, easy to customize and a design quality superlative account
+            on its cloud platform for the optimized performance”
+          </p>
+          <div class="testimonials-footer">
+            <div class="testimonials-footer__image">
+              <img
+                src="https://learnforest.net/wp-content/uploads/2024/01/2-4-2.png"
+                alt=""
+              />
+            </div>
+            <div class="testimonials-footer__content">
+              <div class="testimonials-footer__title">Ronald Richards</div>
+              <div class="testimonials-footer__text">President of Sales</div>
+            </div>
+          </div>
+        </div>
+        <!-- testimonials  Card end  -->
+      </div>
+      <div class="swiper-slide">
+        <!-- #3 testimonials  Card start  -->
+        <div class="a2n_testimonial-card">
+          <h4 class="testimonials__title">Great Work</h4>
+          <p class="testimonials__text">
+            “I think Educrat is the best theme I ever seen this year. Amazing
+            design, easy to customize and a design quality superlative account
+            on its cloud platform for the optimized performance”
+          </p>
+          <div class="testimonials-footer">
+            <div class="testimonials-footer__image">
+              <img
+                src="https://learnforest.net/wp-content/uploads/2024/01/2-4-2.png"
+                alt=""
+              />
+            </div>
+            <div class="testimonials-footer__content">
+              <div class="testimonials-footer__title">Ronald Richards</div>
+              <div class="testimonials-footer__text">President of Sales</div>
+            </div>
+          </div>
+        </div>
+        <!-- testimonials  Card end  -->
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+Initialize Swiper
+<script>
+  var mSwiper = new Swiper(".mySwiper", {
+    loop: true,
+    effect: "cards",
+    cursor: grab,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>

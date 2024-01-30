@@ -114,4 +114,209 @@
     padding: 0 10px;
   }
 }
-/* #Featured Courses Card end  *//*# sourceMappingURL=styles.css.map */
+/* #Featured Courses Card end  */
+/* #Top Categories Card start  */
+.a2n_cat-card {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 190px;
+  background: #fff;
+  border: 1px solid #ededed;
+  padding: 30px 40px;
+  display: block;
+  text-align: center;
+}
+.a2n_cat-card:hover .cat_icon {
+  color: #fff;
+  background: #140342;
+}
+.a2n_cat-card .cat_icon {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  background: #eef2f6;
+  border-radius: 100%;
+  font-size: 40px;
+  color: #140342;
+  transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.a2n_cat-card h3 {
+  margin: 20px 0 10px 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #140342;
+}
+.a2n_cat-card p {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #4f547b;
+}
+
+/* #Top Categories Card end  */
+/* #Upcoming events card start  */
+.a2n_up-card {
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 20px 30px rgba(25, 25, 46, 0.04);
+}
+.a2n_up-card .card-head {
+  display: flex;
+  align-items: center;
+}
+.a2n_up-card .card-head .shape {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  text-align: center;
+  margin-right: 20px;
+  background: #140342;
+}
+.a2n_up-card .card-head h4 {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #fff;
+}
+.a2n_up-card .card-head span {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+.a2n_up-card .card-head a {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #4f547b;
+  transition: color 0.2s ease-in-out;
+}
+.a2n_up-card .card-head a:hover {
+  color: #6440fb;
+}
+.a2n_up-card p {
+  margin: 10px 0 0 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4f547b;
+}
+
+/* #Upcoming events card end  */
+/* #Blogs card start  */
+.a2n_blog-card {
+  width: 100%;
+  max-width: 300px;
+}
+.a2n_blog-card .blog_img img {
+  width: 100%;
+}
+.a2n_blog-card .blogCard__content {
+  margin-top: 20px;
+}
+.a2n_blog-card .blogCard__content .blogCard__category {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #6440fb;
+}
+.a2n_blog-card .blogCard__content .blogCard__title {
+  margin: 0;
+}
+.a2n_blog-card .blogCard__content .blogCard__title a {
+  font-family: "DM Sans", sans-serif;
+  margin-top: 5px;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #242239;
+  overflow: hidden;
+  height: 54px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  transition: all 0.2s ease-in-out;
+}
+.a2n_blog-card .blogCard__content .blogCard__title a:hover {
+  color: #6440fb;
+}
+.a2n_blog-card .blogCard__content .blogCard__date {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #4f547b;
+}
+
+/* #Blogs card end  */
+/* #testimonials  card start  */
+.a2n_testimonial-card {
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 30px 30px 20px;
+}
+.a2n_testimonial-card .testimonials__title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #6440fb;
+}
+.a2n_testimonial-card .testimonials__text {
+  font-family: "DM Sans", sans-serif;
+  margin-top: 14px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #140342;
+}
+.a2n_testimonial-card .testimonials-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid #ededed;
+}
+.a2n_testimonial-card .testimonials-footer__image {
+  margin-right: 20px;
+}
+.a2n_testimonial-card .testimonials-footer__image img {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+.a2n_testimonial-card .testimonials-footer__title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  line-height: 17px;
+  font-weight: 500;
+}
+.a2n_testimonial-card .testimonials-footer__text {
+  font-family: "DM Sans", sans-serif;
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #4f547b;
+}
+
+/* #testimonials  card end  *//*# sourceMappingURL=styles.css.map */
