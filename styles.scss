@@ -328,3 +328,113 @@
   }
 }
 /* #testimonials  card end  */
+/* #Instructors team Card start */
+.a2n-team_card {
+  .teamCard__image {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    img {
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .teamCard__socials {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 6, 79, 0.6);
+    border-radius: 8px;
+    transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    opacity: 0;
+  }
+  .socials_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translateY(15px);
+    a {
+      padding: 5px 10px;
+      color: #fff;
+    }
+  }
+  .teamCard__content {
+    margin-top: 20px;
+    h4 {
+      overflow: hidden;
+      height: 26px;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      a {
+        font-family: "DM Sans", sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #140342;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+          color: #6440fb;
+        }
+      }
+    }
+    p {
+      margin: 0;
+      font-family: "DM Sans", sans-serif;
+      margin-top: 5px;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #4f547b;
+    }
+  }
+  .teamCard_footer {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    margin: -5px;
+    .t-items {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      gap: 5px;
+      i {
+        font-size: 11px;
+        color: #e59819;
+      }
+      img {
+        width: 11px;
+        height: 11px;
+      }
+      span {
+        font-family: "DM Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        color: #e59819;
+      }
+      p {
+        margin: 0;
+        font-family: "DM Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        color: #4f547b;
+      }
+    }
+  }
+  &:hover {
+    .teamCard__socials {
+      opacity: 1;
+    }
+    .socials_icons {
+      transform: translateY(0);
+    }
+  }
+}
+/* #Instructors team Card end  */
